@@ -1,0 +1,29 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fc;
+}
+
+/* Header / Navbar Styles */
+.navbar {
+    background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 0.05rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin-left: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    transform: translateY(-1px);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
